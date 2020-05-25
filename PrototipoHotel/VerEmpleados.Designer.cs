@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VerEmpleados));
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -43,7 +42,6 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -53,21 +51,20 @@
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuGradientPanel1.Controls.Add(this.button3);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox2);
             this.bunifuGradientPanel1.Controls.Add(this.button2);
             this.bunifuGradientPanel1.Controls.Add(this.button1);
             this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
             this.bunifuGradientPanel1.Controls.Add(this.textBox1);
             this.bunifuGradientPanel1.Controls.Add(this.dataGridView1);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Navy;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.Navy;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.DodgerBlue;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.DodgerBlue;
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.DodgerBlue;
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Navy;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(800, 450);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(678, 484);
             this.bunifuGradientPanel1.TabIndex = 0;
             // 
             // button3
@@ -75,31 +72,19 @@
             this.button3.BackColor = System.Drawing.Color.RoyalBlue;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(626, 307);
+            this.button3.Location = new System.Drawing.Point(532, 313);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(134, 37);
             this.button3.TabIndex = 51;
             this.button3.Text = "Eliminar";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::PrototipoHotel.Properties.Resources.Btn__flecha_hacia_delante1;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(37, 32);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 50;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.RoyalBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(626, 245);
+            this.button2.Location = new System.Drawing.Point(532, 251);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(134, 37);
             this.button2.TabIndex = 49;
@@ -112,7 +97,7 @@
             this.button1.BackColor = System.Drawing.Color.RoyalBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(626, 184);
+            this.button1.Location = new System.Drawing.Point(532, 190);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 37);
             this.button1.TabIndex = 48;
@@ -146,9 +131,9 @@
             this.Column3,
             this.Column5,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(39, 100);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 104);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(546, 270);
+            this.dataGridView1.Size = new System.Drawing.Size(487, 313);
             this.dataGridView1.TabIndex = 1;
             // 
             // Column1
@@ -180,7 +165,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(678, 484);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VerEmpleados";
@@ -188,7 +173,6 @@
             this.Text = "VerEmpleados";
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -203,7 +187,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;

@@ -247,5 +247,8 @@
   <ItemGroup>
     <None Include="Resources\Btn- flecha hacia delante1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile-Menu-Icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

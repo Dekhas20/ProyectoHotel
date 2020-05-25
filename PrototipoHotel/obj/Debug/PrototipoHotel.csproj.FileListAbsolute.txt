@@ -11,9 +11,9 @@ C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoH
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.exe
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.pdb
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.MenuPrincipal.resources
-C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.Check_In.resources
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.CheckOut.resources
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.Habitaciones.resources
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.Registrar.resources
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.VerEmpleados.resources
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.Reportes.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.CheckIn.resources

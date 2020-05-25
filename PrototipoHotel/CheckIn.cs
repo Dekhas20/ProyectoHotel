@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PrototipoHotel
 {
-    public partial class Check_In : Form
+    public partial class CheckIn : Form
     {
-        public Check_In()
+        public CheckIn()
         {
             InitializeComponent();
         }

@@ -29,263 +29,314 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
-            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.bunifuGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelMenuUp = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.btExpandir = new System.Windows.Forms.PictureBox();
+            this.btMinimizarMenu = new System.Windows.Forms.PictureBox();
+            this.btCerrarMenu = new System.Windows.Forms.PictureBox();
+            this.panelMenuLeft = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.btReportes = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btRegistrar = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btHabitaciones = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btCheckout = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btCheckin = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.panelContenedor = new System.Windows.Forms.Panel();
+            this.panelMenuUp.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btExpandir)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btMinimizarMenu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btCerrarMenu)).BeginInit();
+            this.panelMenuLeft.SuspendLayout();
             this.SuspendLayout();
             // 
-            // bunifuGradientPanel1
+            // panelMenuUp
             // 
-            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
-            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox8);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox9);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox7);
-            this.bunifuGradientPanel1.Controls.Add(this.label7);
-            this.bunifuGradientPanel1.Controls.Add(this.label5);
-            this.bunifuGradientPanel1.Controls.Add(this.label4);
-            this.bunifuGradientPanel1.Controls.Add(this.label3);
-            this.bunifuGradientPanel1.Controls.Add(this.label2);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox5);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox3);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox4);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox2);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
-            this.bunifuGradientPanel1.Controls.Add(this.label1);
-            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Navy;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.Navy;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
-            this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(710, 446);
-            this.bunifuGradientPanel1.TabIndex = 0;
+            this.panelMenuUp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelMenuUp.BackgroundImage")));
+            this.panelMenuUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMenuUp.Controls.Add(this.btExpandir);
+            this.panelMenuUp.Controls.Add(this.btMinimizarMenu);
+            this.panelMenuUp.Controls.Add(this.btCerrarMenu);
+            this.panelMenuUp.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelMenuUp.GradientBottomLeft = System.Drawing.Color.White;
+            this.panelMenuUp.GradientBottomRight = System.Drawing.Color.White;
+            this.panelMenuUp.GradientTopLeft = System.Drawing.Color.White;
+            this.panelMenuUp.GradientTopRight = System.Drawing.Color.White;
+            this.panelMenuUp.Location = new System.Drawing.Point(210, 0);
+            this.panelMenuUp.Name = "panelMenuUp";
+            this.panelMenuUp.Quality = 10;
+            this.panelMenuUp.Size = new System.Drawing.Size(678, 37);
+            this.panelMenuUp.TabIndex = 1;
             // 
-            // pictureBox8
+            // btExpandir
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Image = global::PrototipoHotel.Properties.Resources.Btn_Minimizar;
-            this.pictureBox8.Location = new System.Drawing.Point(620, 3);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(37, 32);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 16;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            this.btExpandir.Image = global::PrototipoHotel.Properties.Resources.Mobile_Menu_Icon;
+            this.btExpandir.Location = new System.Drawing.Point(6, 3);
+            this.btExpandir.Name = "btExpandir";
+            this.btExpandir.Size = new System.Drawing.Size(25, 29);
+            this.btExpandir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btExpandir.TabIndex = 40;
+            this.btExpandir.TabStop = false;
+            this.btExpandir.Click += new System.EventHandler(this.btExpandir_Click);
             // 
-            // pictureBox9
+            // btMinimizarMenu
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = global::PrototipoHotel.Properties.Resources.Btn_cerrar;
-            this.pictureBox9.Location = new System.Drawing.Point(670, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(37, 32);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 15;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            this.btMinimizarMenu.BackColor = System.Drawing.Color.Transparent;
+            this.btMinimizarMenu.Image = global::PrototipoHotel.Properties.Resources.Btn_Minimizar;
+            this.btMinimizarMenu.Location = new System.Drawing.Point(607, 3);
+            this.btMinimizarMenu.Name = "btMinimizarMenu";
+            this.btMinimizarMenu.Size = new System.Drawing.Size(25, 25);
+            this.btMinimizarMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btMinimizarMenu.TabIndex = 39;
+            this.btMinimizarMenu.TabStop = false;
+            this.btMinimizarMenu.Click += new System.EventHandler(this.btMinimizarMenu_Click);
             // 
-            // pictureBox7
+            // btCerrarMenu
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::PrototipoHotel.Properties.Resources.web;
-            this.pictureBox7.Location = new System.Drawing.Point(657, 397);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 46);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 14;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.btCerrarMenu.BackColor = System.Drawing.Color.Transparent;
+            this.btCerrarMenu.Image = global::PrototipoHotel.Properties.Resources.Btn_cerrar;
+            this.btCerrarMenu.Location = new System.Drawing.Point(641, 3);
+            this.btCerrarMenu.Name = "btCerrarMenu";
+            this.btCerrarMenu.Size = new System.Drawing.Size(25, 25);
+            this.btCerrarMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btCerrarMenu.TabIndex = 38;
+            this.btCerrarMenu.TabStop = false;
+            this.btCerrarMenu.Click += new System.EventHandler(this.btCerrarMenu_Click);
             // 
-            // label7
+            // panelMenuLeft
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(375, 369);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 33);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Registrar";
+            this.panelMenuLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelMenuLeft.BackgroundImage")));
+            this.panelMenuLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMenuLeft.Controls.Add(this.btReportes);
+            this.panelMenuLeft.Controls.Add(this.btRegistrar);
+            this.panelMenuLeft.Controls.Add(this.btHabitaciones);
+            this.panelMenuLeft.Controls.Add(this.btCheckout);
+            this.panelMenuLeft.Controls.Add(this.btCheckin);
+            this.panelMenuLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenuLeft.GradientBottomLeft = System.Drawing.Color.Navy;
+            this.panelMenuLeft.GradientBottomRight = System.Drawing.Color.Navy;
+            this.panelMenuLeft.GradientTopLeft = System.Drawing.Color.Navy;
+            this.panelMenuLeft.GradientTopRight = System.Drawing.Color.Navy;
+            this.panelMenuLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelMenuLeft.Name = "panelMenuLeft";
+            this.panelMenuLeft.Quality = 10;
+            this.panelMenuLeft.Size = new System.Drawing.Size(210, 521);
+            this.panelMenuLeft.TabIndex = 0;
             // 
-            // label5
+            // btReportes
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(185, 369);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 33);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Reportes";
+            this.btReportes.Activecolor = System.Drawing.Color.Transparent;
+            this.btReportes.BackColor = System.Drawing.Color.Navy;
+            this.btReportes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btReportes.BorderRadius = 0;
+            this.btReportes.ButtonText = "     Reportes";
+            this.btReportes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btReportes.DisabledColor = System.Drawing.Color.Gray;
+            this.btReportes.Iconcolor = System.Drawing.Color.Transparent;
+            this.btReportes.Iconimage = global::PrototipoHotel.Properties.Resources.datos2;
+            this.btReportes.Iconimage_right = null;
+            this.btReportes.Iconimage_right_Selected = null;
+            this.btReportes.Iconimage_Selected = null;
+            this.btReportes.IconMarginLeft = 0;
+            this.btReportes.IconMarginRight = 0;
+            this.btReportes.IconRightVisible = true;
+            this.btReportes.IconRightZoom = 0D;
+            this.btReportes.IconVisible = true;
+            this.btReportes.IconZoom = 90D;
+            this.btReportes.IsTab = false;
+            this.btReportes.Location = new System.Drawing.Point(3, 312);
+            this.btReportes.Name = "btReportes";
+            this.btReportes.Normalcolor = System.Drawing.Color.Navy;
+            this.btReportes.OnHovercolor = System.Drawing.Color.Blue;
+            this.btReportes.OnHoverTextColor = System.Drawing.Color.White;
+            this.btReportes.selected = false;
+            this.btReportes.Size = new System.Drawing.Size(201, 48);
+            this.btReportes.TabIndex = 4;
+            this.btReportes.Text = "     Reportes";
+            this.btReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btReportes.Textcolor = System.Drawing.Color.White;
+            this.btReportes.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btReportes.Click += new System.EventHandler(this.btReportes_Click);
             // 
-            // label4
+            // btRegistrar
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(455, 208);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(151, 33);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Habitaciones";
+            this.btRegistrar.Activecolor = System.Drawing.Color.Transparent;
+            this.btRegistrar.BackColor = System.Drawing.Color.Navy;
+            this.btRegistrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btRegistrar.BorderRadius = 0;
+            this.btRegistrar.ButtonText = "     Registrar";
+            this.btRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btRegistrar.DisabledColor = System.Drawing.Color.Gray;
+            this.btRegistrar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btRegistrar.Iconimage = global::PrototipoHotel.Properties.Resources.archivo2;
+            this.btRegistrar.Iconimage_right = null;
+            this.btRegistrar.Iconimage_right_Selected = null;
+            this.btRegistrar.Iconimage_Selected = null;
+            this.btRegistrar.IconMarginLeft = 0;
+            this.btRegistrar.IconMarginRight = 0;
+            this.btRegistrar.IconRightVisible = true;
+            this.btRegistrar.IconRightZoom = 0D;
+            this.btRegistrar.IconVisible = true;
+            this.btRegistrar.IconZoom = 90D;
+            this.btRegistrar.IsTab = false;
+            this.btRegistrar.Location = new System.Drawing.Point(3, 258);
+            this.btRegistrar.Name = "btRegistrar";
+            this.btRegistrar.Normalcolor = System.Drawing.Color.Navy;
+            this.btRegistrar.OnHovercolor = System.Drawing.Color.Blue;
+            this.btRegistrar.OnHoverTextColor = System.Drawing.Color.White;
+            this.btRegistrar.selected = false;
+            this.btRegistrar.Size = new System.Drawing.Size(201, 48);
+            this.btRegistrar.TabIndex = 3;
+            this.btRegistrar.Text = "     Registrar";
+            this.btRegistrar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btRegistrar.Textcolor = System.Drawing.Color.White;
+            this.btRegistrar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btRegistrar.Click += new System.EventHandler(this.btRegistrar_Click);
             // 
-            // label3
+            // btHabitaciones
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(283, 208);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 33);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Check-out";
+            this.btHabitaciones.Activecolor = System.Drawing.Color.Transparent;
+            this.btHabitaciones.BackColor = System.Drawing.Color.Navy;
+            this.btHabitaciones.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btHabitaciones.BorderRadius = 0;
+            this.btHabitaciones.ButtonText = "     Habitaciones";
+            this.btHabitaciones.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btHabitaciones.DisabledColor = System.Drawing.Color.Gray;
+            this.btHabitaciones.Iconcolor = System.Drawing.Color.Transparent;
+            this.btHabitaciones.Iconimage = global::PrototipoHotel.Properties.Resources.dias_festivos__1_2;
+            this.btHabitaciones.Iconimage_right = null;
+            this.btHabitaciones.Iconimage_right_Selected = null;
+            this.btHabitaciones.Iconimage_Selected = null;
+            this.btHabitaciones.IconMarginLeft = 0;
+            this.btHabitaciones.IconMarginRight = 0;
+            this.btHabitaciones.IconRightVisible = true;
+            this.btHabitaciones.IconRightZoom = 0D;
+            this.btHabitaciones.IconVisible = true;
+            this.btHabitaciones.IconZoom = 90D;
+            this.btHabitaciones.IsTab = false;
+            this.btHabitaciones.Location = new System.Drawing.Point(3, 204);
+            this.btHabitaciones.Name = "btHabitaciones";
+            this.btHabitaciones.Normalcolor = System.Drawing.Color.Navy;
+            this.btHabitaciones.OnHovercolor = System.Drawing.Color.Blue;
+            this.btHabitaciones.OnHoverTextColor = System.Drawing.Color.White;
+            this.btHabitaciones.selected = false;
+            this.btHabitaciones.Size = new System.Drawing.Size(201, 48);
+            this.btHabitaciones.TabIndex = 2;
+            this.btHabitaciones.Text = "     Habitaciones";
+            this.btHabitaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btHabitaciones.Textcolor = System.Drawing.Color.White;
+            this.btHabitaciones.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btHabitaciones.Click += new System.EventHandler(this.btHabitaciones_Click);
             // 
-            // label2
+            // btCheckout
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(95, 208);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 33);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Check-in";
+            this.btCheckout.Activecolor = System.Drawing.Color.Transparent;
+            this.btCheckout.BackColor = System.Drawing.Color.Navy;
+            this.btCheckout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btCheckout.BorderRadius = 0;
+            this.btCheckout.ButtonText = "     Check-Out";
+            this.btCheckout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btCheckout.DisabledColor = System.Drawing.Color.Gray;
+            this.btCheckout.Iconcolor = System.Drawing.Color.Transparent;
+            this.btCheckout.Iconimage = global::PrototipoHotel.Properties.Resources.dias_festivos;
+            this.btCheckout.Iconimage_right = null;
+            this.btCheckout.Iconimage_right_Selected = null;
+            this.btCheckout.Iconimage_Selected = null;
+            this.btCheckout.IconMarginLeft = 0;
+            this.btCheckout.IconMarginRight = 0;
+            this.btCheckout.IconRightVisible = true;
+            this.btCheckout.IconRightZoom = 0D;
+            this.btCheckout.IconVisible = true;
+            this.btCheckout.IconZoom = 90D;
+            this.btCheckout.IsTab = false;
+            this.btCheckout.Location = new System.Drawing.Point(3, 150);
+            this.btCheckout.Name = "btCheckout";
+            this.btCheckout.Normalcolor = System.Drawing.Color.Navy;
+            this.btCheckout.OnHovercolor = System.Drawing.Color.Blue;
+            this.btCheckout.OnHoverTextColor = System.Drawing.Color.White;
+            this.btCheckout.selected = false;
+            this.btCheckout.Size = new System.Drawing.Size(201, 48);
+            this.btCheckout.TabIndex = 1;
+            this.btCheckout.Text = "     Check-Out";
+            this.btCheckout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btCheckout.Textcolor = System.Drawing.Color.White;
+            this.btCheckout.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCheckout.Click += new System.EventHandler(this.btCheckout_Click);
             // 
-            // pictureBox5
+            // btCheckin
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::PrototipoHotel.Properties.Resources.datos;
-            this.pictureBox5.Location = new System.Drawing.Point(190, 259);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(106, 107);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.btCheckin.Activecolor = System.Drawing.Color.Transparent;
+            this.btCheckin.BackColor = System.Drawing.Color.Navy;
+            this.btCheckin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btCheckin.BorderRadius = 0;
+            this.btCheckin.ButtonText = "     Check-In";
+            this.btCheckin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btCheckin.DisabledColor = System.Drawing.Color.Gray;
+            this.btCheckin.Iconcolor = System.Drawing.Color.Transparent;
+            this.btCheckin.Iconimage = global::PrototipoHotel.Properties.Resources.personas2;
+            this.btCheckin.Iconimage_right = null;
+            this.btCheckin.Iconimage_right_Selected = null;
+            this.btCheckin.Iconimage_Selected = null;
+            this.btCheckin.IconMarginLeft = 0;
+            this.btCheckin.IconMarginRight = 0;
+            this.btCheckin.IconRightVisible = true;
+            this.btCheckin.IconRightZoom = 0D;
+            this.btCheckin.IconVisible = true;
+            this.btCheckin.IconZoom = 90D;
+            this.btCheckin.IsTab = false;
+            this.btCheckin.Location = new System.Drawing.Point(3, 96);
+            this.btCheckin.Name = "btCheckin";
+            this.btCheckin.Normalcolor = System.Drawing.Color.Navy;
+            this.btCheckin.OnHovercolor = System.Drawing.Color.Blue;
+            this.btCheckin.OnHoverTextColor = System.Drawing.Color.White;
+            this.btCheckin.selected = false;
+            this.btCheckin.Size = new System.Drawing.Size(201, 48);
+            this.btCheckin.TabIndex = 0;
+            this.btCheckin.Text = "     Check-In";
+            this.btCheckin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btCheckin.Textcolor = System.Drawing.Color.White;
+            this.btCheckin.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCheckin.Click += new System.EventHandler(this.btCheckin_Click);
             // 
-            // pictureBox3
+            // panelContenedor
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::PrototipoHotel.Properties.Resources.dias_festivos__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(473, 98);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(106, 107);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::PrototipoHotel.Properties.Resources.archivo;
-            this.pictureBox4.Location = new System.Drawing.Point(378, 259);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(106, 107);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::PrototipoHotel.Properties.Resources.personas;
-            this.pictureBox2.Location = new System.Drawing.Point(97, 98);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(106, 107);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::PrototipoHotel.Properties.Resources.dias_festivos;
-            this.pictureBox1.Location = new System.Drawing.Point(288, 98);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(106, 107);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(281, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(124, 57);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Menu";
+            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContenedor.Location = new System.Drawing.Point(210, 37);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(678, 484);
+            this.panelContenedor.TabIndex = 2;
             // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(710, 446);
-            this.Controls.Add(this.bunifuGradientPanel1);
+            this.ClientSize = new System.Drawing.Size(888, 521);
+            this.Controls.Add(this.panelContenedor);
+            this.Controls.Add(this.panelMenuUp);
+            this.Controls.Add(this.panelMenuLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuPrincipal";
-            this.bunifuGradientPanel1.ResumeLayout(false);
-            this.bunifuGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.MenuPrincipal_Load);
+            this.panelMenuUp.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btExpandir)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btMinimizarMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btCerrarMenu)).EndInit();
+            this.panelMenuLeft.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private Bunifu.Framework.UI.BunifuGradientPanel panelMenuLeft;
+        private Bunifu.Framework.UI.BunifuFlatButton btCheckin;
+        private Bunifu.Framework.UI.BunifuGradientPanel panelMenuUp;
+        private Bunifu.Framework.UI.BunifuFlatButton btReportes;
+        private Bunifu.Framework.UI.BunifuFlatButton btRegistrar;
+        private Bunifu.Framework.UI.BunifuFlatButton btHabitaciones;
+        private Bunifu.Framework.UI.BunifuFlatButton btCheckout;
+        private System.Windows.Forms.PictureBox btExpandir;
+        private System.Windows.Forms.PictureBox btMinimizarMenu;
+        private System.Windows.Forms.PictureBox btCerrarMenu;
+        private System.Windows.Forms.Panel panelContenedor;
     }
 }

@@ -19,7 +19,7 @@ namespace PrototipoHotel
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Check_In checkIn = new Check_In();
+            CheckIn checkIn = new CheckIn();
             this.Hide();
             checkIn.Show();
         }
@@ -69,5 +69,72 @@ namespace PrototipoHotel
             this.Hide();
             reportes.Show();
         }
+
+        private void btCerrarMenu_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btMinimizarMenu_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btExpandir_Click(object sender, EventArgs e)
+        {
+            if (panelMenuLeft.Width == 210)
+            {
+                panelMenuLeft.Width = 70;
+            }else
+            {
+                panelMenuLeft.Width = 210;
+            }
+        }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        ///////////////////// ponemos el un form dentro de otro/////////
+        private void AbrirFormInPanel(object Formhijo)
+        {
+            if (this.panelContenedor.Controls.Count > 0)
+
+                this.panelContenedor.Controls.RemoveAt(0);
+            Form fh = Formhijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelContenedor.Controls.Add(fh);
+            this.panelContenedor.Tag = fh;
+            fh.Show();
+        }
+
+        private void btCheckin_Click(object sender, EventArgs e)
+        {
+            AbrirFormInPanel(new CheckIn());
+        }
+
+        private void btCheckout_Click(object sender, EventArgs e)
+        {
+            AbrirFormInPanel(new CheckOut());
+        }
+
+        private void btHabitaciones_Click(object sender, EventArgs e)
+        {
+            AbrirFormInPanel(new Habitaciones());
+        }
+
+        private void btRegistrar_Click(object sender, EventArgs e)
+        {
+            AbrirFormInPanel(new Registrar());
+        }
+
+        private void btReportes_Click(object sender, EventArgs e)
+        {
+            AbrirFormInPanel(new Reportes());
+        }
+
+        //////////////////////////////////////////////////////////
     }
 }

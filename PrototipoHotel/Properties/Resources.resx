@@ -139,11 +139,11 @@
   <data name="viaje2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\viaje2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dias-festivos (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dias-festivos (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="web" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\web.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn- flecha hacia delante1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn- flecha hacia delante1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,8 +181,8 @@
   <data name="dias-festivos (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dias-festivos (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dias-festivos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dias-festivos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dias-festivos (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dias-festivos (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="viaje1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\viaje1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,14 +199,17 @@
   <data name="Btn cerrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Btn cerrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="datos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="datos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\datos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="datos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\datos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dias-festivos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dias-festivos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dias-festivos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dias-festivos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +217,7 @@
   <data name="web2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\web2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Btn- flecha hacia delante1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn- flecha hacia delante1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Mobile-Menu-Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mobile-Menu-Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
