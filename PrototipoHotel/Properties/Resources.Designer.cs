@@ -123,6 +123,16 @@ namespace PrototipoHotel.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Businessman_48px {
+            get {
+                object obj = ResourceManager.GetObject("Businessman_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap datos {
             get {
                 object obj = ResourceManager.GetObject("datos", resourceCulture);
@@ -273,6 +283,16 @@ namespace PrototipoHotel.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconoUsuario {
+            get {
+                object obj = ResourceManager.GetObject("iconoUsuario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mobile_Menu_Icon {
             get {
                 object obj = ResourceManager.GetObject("Mobile-Menu-Icon", resourceCulture);
@@ -286,6 +306,16 @@ namespace PrototipoHotel.Properties {
         internal static System.Drawing.Bitmap personas {
             get {
                 object obj = ResourceManager.GetObject("personas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap personas__1_ {
+            get {
+                object obj = ResourceManager.GetObject("personas (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

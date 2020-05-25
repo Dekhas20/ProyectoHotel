@@ -84,7 +84,7 @@ namespace PrototipoHotel
         {
             if (panelMenuLeft.Width == 210)
             {
-                panelMenuLeft.Width = 70;
+                panelMenuLeft.Width = 60;
             }else
             {
                 panelMenuLeft.Width = 210;
@@ -135,6 +135,12 @@ namespace PrototipoHotel
             AbrirFormInPanel(new Reportes());
         }
 
-        //////////////////////////////////////////////////////////
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            Form1 login = new Form1();
+            this.Hide();
+            login.Show();
+        }
+
     }
 }

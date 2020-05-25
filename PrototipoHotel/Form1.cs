@@ -25,9 +25,14 @@ namespace PrototipoHotel
             
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void btCerrarLogin_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
 
+        private void btMinimizarLogin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

@@ -250,5 +250,14 @@
   <ItemGroup>
     <None Include="Resources\Mobile-Menu-Icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Businessman_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconoUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personas %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

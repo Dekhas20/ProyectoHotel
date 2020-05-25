@@ -40,6 +40,7 @@
             this.btCheckout = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btCheckin = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panelMenuUp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btExpandir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btMinimizarMenu)).BeginInit();
@@ -78,6 +79,7 @@
             // 
             // btMinimizarMenu
             // 
+            this.btMinimizarMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btMinimizarMenu.BackColor = System.Drawing.Color.Transparent;
             this.btMinimizarMenu.Image = global::PrototipoHotel.Properties.Resources.Btn_Minimizar;
             this.btMinimizarMenu.Location = new System.Drawing.Point(607, 3);
@@ -90,6 +92,7 @@
             // 
             // btCerrarMenu
             // 
+            this.btCerrarMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btCerrarMenu.BackColor = System.Drawing.Color.Transparent;
             this.btCerrarMenu.Image = global::PrototipoHotel.Properties.Resources.Btn_cerrar;
             this.btCerrarMenu.Location = new System.Drawing.Point(641, 3);
@@ -104,6 +107,7 @@
             // 
             this.panelMenuLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelMenuLeft.BackgroundImage")));
             this.panelMenuLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMenuLeft.Controls.Add(this.bunifuFlatButton1);
             this.panelMenuLeft.Controls.Add(this.btReportes);
             this.panelMenuLeft.Controls.Add(this.btRegistrar);
             this.panelMenuLeft.Controls.Add(this.btHabitaciones);
@@ -303,6 +307,41 @@
             this.panelContenedor.Size = new System.Drawing.Size(678, 484);
             this.panelContenedor.TabIndex = 2;
             // 
+            // bunifuFlatButton1
+            // 
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.Navy;
+            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton1.BorderRadius = 0;
+            this.bunifuFlatButton1.ButtonText = "     Cerrar Sesión";
+            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.Iconimage = global::PrototipoHotel.Properties.Resources.web;
+            this.bunifuFlatButton1.Iconimage_right = null;
+            this.bunifuFlatButton1.Iconimage_right_Selected = null;
+            this.bunifuFlatButton1.Iconimage_Selected = null;
+            this.bunifuFlatButton1.IconMarginLeft = 0;
+            this.bunifuFlatButton1.IconMarginRight = 0;
+            this.bunifuFlatButton1.IconRightVisible = true;
+            this.bunifuFlatButton1.IconRightZoom = 0D;
+            this.bunifuFlatButton1.IconVisible = true;
+            this.bunifuFlatButton1.IconZoom = 90D;
+            this.bunifuFlatButton1.IsTab = false;
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(3, 461);
+            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Navy;
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Blue;
+            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.selected = false;
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(201, 48);
+            this.bunifuFlatButton1.TabIndex = 5;
+            this.bunifuFlatButton1.Text = "     Cerrar Sesión";
+            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -338,5 +377,6 @@
         private System.Windows.Forms.PictureBox btMinimizarMenu;
         private System.Windows.Forms.PictureBox btCerrarMenu;
         private System.Windows.Forms.Panel panelContenedor;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
     }
 }
