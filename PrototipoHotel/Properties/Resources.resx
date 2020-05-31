@@ -145,8 +145,14 @@
   <data name="Btn- flecha hacia delante1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Btn- flecha hacia delante1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Logo Hotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo Hotel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Mobile-Menu-Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mobile-Menu-Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viaje1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viaje1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +199,8 @@
   <data name="dias-festivos (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dias-festivos (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="viaje1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\viaje1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="personas (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\personas (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Btn Minimizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Btn Minimizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,7 +232,7 @@
   <data name="web2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\web2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="personas (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\personas (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

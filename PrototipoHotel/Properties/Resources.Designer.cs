@@ -293,6 +293,26 @@ namespace PrototipoHotel.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logo_Hotel {
+            get {
+                object obj = ResourceManager.GetObject("Logo Hotel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mes {
+            get {
+                object obj = ResourceManager.GetObject("mes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mobile_Menu_Icon {
             get {
                 object obj = ResourceManager.GetObject("Mobile-Menu-Icon", resourceCulture);

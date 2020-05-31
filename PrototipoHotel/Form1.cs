@@ -17,11 +17,27 @@ namespace PrototipoHotel
             InitializeComponent();
         }
 
+        
+
         private void button1_Click(object sender, EventArgs e)
         {
-            MenuPrincipal mPrincipal = new MenuPrincipal();
-            this.Hide();
-            mPrincipal.Show();
+            if (tbUsuario.Text == "diego" || tbUsuario.Text == "jesus" && tbContraseña.Text == "1234")
+            {
+                MenuPrincipal mPrincipal = new MenuPrincipal();
+                this.Hide();
+                mPrincipal.Show();
+            }else if(tbUsuario.Text == "david" && tbContraseña.Text == "1234")
+            {
+                MenuPrincipal mPrincipal = new MenuPrincipal();
+                mPrincipal.btRegistrar.Visible = false;
+                mPrincipal.btReportes.Visible = false;
+                this.Hide();
+                mPrincipal.Show();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrecto");
+            }
             
         }
 
@@ -33,6 +49,11 @@ namespace PrototipoHotel
         private void btMinimizarLogin_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuGradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

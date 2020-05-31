@@ -12,16 +12,33 @@ namespace PrototipoHotel
 {
     public partial class Registrar : Form
     {
-        public Registrar()
+        MenuPrincipal formParent;
+        public Registrar(MenuPrincipal formParent)
         {
+            this.formParent = formParent;
             InitializeComponent();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            VerEmpleados empleados = new VerEmpleados();
+            VerEmpleados empleados = new VerEmpleados(formParent);
             this.Hide();
             empleados.Show();
+        }
+
+        private void btReserva_Click(object sender, EventArgs e)
+        {
+            formParent.AbrirFormInPanel(new CrearEmpleado(formParent));
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            formParent.AbrirFormInPanel(new ModificarEmpleado(formParent));
+        }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            formParent.AbrirFormInPanel(new VerEmpleados(formParent));
         }
     }
 }

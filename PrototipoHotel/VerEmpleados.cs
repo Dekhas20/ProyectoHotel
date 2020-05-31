@@ -12,14 +12,16 @@ namespace PrototipoHotel
 {
     public partial class VerEmpleados : Form
     {
-        public VerEmpleados()
+        MenuPrincipal formParent;
+        public VerEmpleados(MenuPrincipal formParent)
         {
+            this.formParent = formParent;
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Registrar registrar = new Registrar();
+            Registrar registrar = new Registrar(formParent);
             this.Hide();
             registrar.Show();
         }
@@ -29,6 +31,11 @@ namespace PrototipoHotel
             MenuPrincipal menu = new MenuPrincipal();
             this.Hide();
             menu.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

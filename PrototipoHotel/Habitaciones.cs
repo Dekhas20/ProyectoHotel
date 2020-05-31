@@ -12,8 +12,10 @@ namespace PrototipoHotel
 {
     public partial class Habitaciones : Form
     {
-        public Habitaciones()
+        MenuPrincipal formParent;
+        public Habitaciones(MenuPrincipal formParent)
         {
+            this.formParent = formParent;
             InitializeComponent();
         }
 
@@ -22,6 +24,21 @@ namespace PrototipoHotel
             MenuPrincipal menu = new MenuPrincipal();
             this.Hide();
             menu.Show();
+        }
+
+        private void btReserva_Click(object sender, EventArgs e)
+        {
+            formParent.AbrirFormInPanel(new crearHabitacion(formParent));
+        }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            formParent.AbrirFormInPanel(new VerHabitaciones(formParent));
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            formParent.AbrirFormInPanel(new modificarHabitaciones(formParent));
         }
     }
 }

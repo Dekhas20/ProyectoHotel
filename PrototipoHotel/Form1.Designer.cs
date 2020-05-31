@@ -29,23 +29,38 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.btnIngresar = new System.Windows.Forms.Button();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btMinimizarLogin = new System.Windows.Forms.PictureBox();
             this.btCerrarLogin = new System.Windows.Forms.PictureBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbContraseña = new System.Windows.Forms.TextBox();
+            this.tbUsuario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btMinimizarLogin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btCerrarLogin)).BeginInit();
             this.SuspendLayout();
+            // 
+            // btnIngresar
+            // 
+            this.btnIngresar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnIngresar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresar.Location = new System.Drawing.Point(123, 339);
+            this.btnIngresar.Name = "btnIngresar";
+            this.btnIngresar.Size = new System.Drawing.Size(147, 42);
+            this.btnIngresar.TabIndex = 5;
+            this.btnIngresar.Text = "Ingresar";
+            this.btnIngresar.UseVisualStyleBackColor = false;
+            this.btnIngresar.Click += new System.EventHandler(this.button1_Click);
             // 
             // bunifuGradientPanel1
             // 
@@ -57,9 +72,9 @@
             this.bunifuGradientPanel1.Controls.Add(this.btMinimizarLogin);
             this.bunifuGradientPanel1.Controls.Add(this.btCerrarLogin);
             this.bunifuGradientPanel1.Controls.Add(this.checkBox1);
-            this.bunifuGradientPanel1.Controls.Add(this.button1);
-            this.bunifuGradientPanel1.Controls.Add(this.textBox2);
-            this.bunifuGradientPanel1.Controls.Add(this.textBox1);
+            this.bunifuGradientPanel1.Controls.Add(this.btnIngresar);
+            this.bunifuGradientPanel1.Controls.Add(this.tbContraseña);
+            this.bunifuGradientPanel1.Controls.Add(this.tbUsuario);
             this.bunifuGradientPanel1.Controls.Add(this.label3);
             this.bunifuGradientPanel1.Controls.Add(this.label2);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -72,6 +87,31 @@
             this.bunifuGradientPanel1.Quality = 10;
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(390, 430);
             this.bunifuGradientPanel1.TabIndex = 1;
+            this.bunifuGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.bunifuGradientPanel1_Paint);
+            // 
+            // bunifuSeparator2
+            // 
+            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.bunifuSeparator2.LineThickness = 1;
+            this.bunifuSeparator2.Location = new System.Drawing.Point(173, 284);
+            this.bunifuSeparator2.Name = "bunifuSeparator2";
+            this.bunifuSeparator2.Size = new System.Drawing.Size(155, 10);
+            this.bunifuSeparator2.TabIndex = 11;
+            this.bunifuSeparator2.Transparency = 255;
+            this.bunifuSeparator2.Vertical = false;
+            // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.bunifuSeparator1.LineThickness = 1;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(171, 223);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Size = new System.Drawing.Size(157, 10);
+            this.bunifuSeparator1.TabIndex = 10;
+            this.bunifuSeparator1.Transparency = 255;
+            this.bunifuSeparator1.Vertical = false;
             // 
             // pictureBox3
             // 
@@ -119,37 +159,28 @@
             this.checkBox1.Text = "Ver Contraseña";
             this.checkBox1.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // tbContraseña
             // 
-            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(123, 339);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 42);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Ingresar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.tbContraseña.BackColor = System.Drawing.Color.RoyalBlue;
+            this.tbContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbContraseña.Location = new System.Drawing.Point(171, 259);
+            this.tbContraseña.Multiline = true;
+            this.tbContraseña.Name = "tbContraseña";
+            this.tbContraseña.PasswordChar = '*';
+            this.tbContraseña.Size = new System.Drawing.Size(157, 26);
+            this.tbContraseña.TabIndex = 4;
             // 
-            // textBox2
+            // tbUsuario
             // 
-            this.textBox2.BackColor = System.Drawing.Color.RoyalBlue;
-            this.textBox2.Location = new System.Drawing.Point(171, 259);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 26);
-            this.textBox2.TabIndex = 4;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.textBox1.Location = new System.Drawing.Point(171, 199);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 25);
-            this.textBox1.TabIndex = 3;
+            this.tbUsuario.BackColor = System.Drawing.Color.RoyalBlue;
+            this.tbUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbUsuario.Location = new System.Drawing.Point(171, 199);
+            this.tbUsuario.Multiline = true;
+            this.tbUsuario.Name = "tbUsuario";
+            this.tbUsuario.Size = new System.Drawing.Size(157, 25);
+            this.tbUsuario.TabIndex = 3;
             // 
             // label3
             // 
@@ -173,32 +204,9 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Usuario:";
             // 
-            // bunifuSeparator1
-            // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.White;
-            this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(171, 223);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(157, 10);
-            this.bunifuSeparator1.TabIndex = 10;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = false;
-            // 
-            // bunifuSeparator2
-            // 
-            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSeparator2.LineThickness = 1;
-            this.bunifuSeparator2.Location = new System.Drawing.Point(173, 284);
-            this.bunifuSeparator2.Name = "bunifuSeparator2";
-            this.bunifuSeparator2.Size = new System.Drawing.Size(155, 10);
-            this.bunifuSeparator2.TabIndex = 11;
-            this.bunifuSeparator2.Transparency = 255;
-            this.bunifuSeparator2.Vertical = false;
-            // 
             // Form1
             // 
+            this.AcceptButton = this.btnIngresar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(390, 430);
@@ -220,9 +228,9 @@
 
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnIngresar;
+        private System.Windows.Forms.TextBox tbContraseña;
+        private System.Windows.Forms.TextBox tbUsuario;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox btCerrarLogin;

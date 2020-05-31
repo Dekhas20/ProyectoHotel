@@ -12,8 +12,10 @@ namespace PrototipoHotel
 {
     public partial class CheckOut : Form
     {
-        public CheckOut()
+        MenuPrincipal formParent;
+        public CheckOut(MenuPrincipal formParent)
         {
+            this.formParent = formParent;
             InitializeComponent();
         }
 

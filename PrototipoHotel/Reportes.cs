@@ -12,8 +12,10 @@ namespace PrototipoHotel
 {
     public partial class Reportes : Form
     {
-        public Reportes()
+        MenuPrincipal formParent;
+        public Reportes(MenuPrincipal formParent)
         {
+            this.formParent = formParent;
             InitializeComponent();
         }
 
@@ -32,6 +34,21 @@ namespace PrototipoHotel
         private void pictureBox9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btReserva_Click(object sender, EventArgs e)
+        {
+            formParent.AbrirFormInPanel(new ReporteFecha(formParent));
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            formParent.AbrirFormInPanel(new reporteUsuario(formParent));
+        }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            formParent.AbrirFormInPanel(new reporteHabitacion(formParent));
         }
     }
 }

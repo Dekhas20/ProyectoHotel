@@ -12,8 +12,10 @@ namespace PrototipoHotel
 {
     public partial class CheckIn : Form
     {
-        public CheckIn()
+        MenuPrincipal formParent;
+        public CheckIn(MenuPrincipal formParent)
         {
+            this.formParent = formParent;
             InitializeComponent();
         }
 
@@ -22,6 +24,11 @@ namespace PrototipoHotel
             MenuPrincipal menu = new MenuPrincipal();
             this.Hide();
             menu.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

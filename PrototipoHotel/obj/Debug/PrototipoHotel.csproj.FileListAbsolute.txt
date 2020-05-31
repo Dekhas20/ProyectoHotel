@@ -17,3 +17,15 @@ C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoH
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.VerEmpleados.resources
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.Reportes.resources
 C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.CheckIn.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.Reserva.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.crearReserva.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.modificarReserva.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.eliminarReserva.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.crearHabitacion.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.VerHabitaciones.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.modificarHabitaciones.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.CrearEmpleado.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.ModificarEmpleado.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.ReporteFecha.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.reporteUsuario.resources
+C:\Users\usuario\source\repos\PrototipoHotel\PrototipoHotel\obj\Debug\PrototipoHotel.reporteHabitacion.resources
